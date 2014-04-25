@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Infinite Child
+ Theme URI:    http://example.com/infinite-child/
+ Description:  Infinite Child Theme
+ Author:       Arcy Douglass
+ Author URI:   http://example.com
+ Template:     infinite
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  infinite-child
+*/
+
+@import url("../twentyfourteen/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.container {
+	background-color: darkgray;
+	color: white;
+}
+#contact-information {
+	margin: 0px 0px 10px 0px;
+}
+
+#header-wrapper{
+	background-color: darkgray;
+}
+
+#footer-wrapper {
+	background-color: darkgray;
+}
+
+#main-content-container {
+	background-color: darkgray;
+}
+
+#name-and_contact {
+	padding: -10px;
+	margin: -50px 0px 0px 0px;
+}
+
+#photographer-name {
+	padding: 0px;
+}
+
+.portfolio-images {
+	width: 100%;
+}
